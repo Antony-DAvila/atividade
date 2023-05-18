@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(logo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#site{
+    background-color: #000000b9;
+    width: 99.5%;
+    height: 780px;
+    margin: 20px auto;
+    border-radius: 20px;
+    color:#fff;
+}
+#topo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0 20px;
+}
+.artigo1{
+    padding: 10px;
+    width: 90%;
+    font-size: 1.2em;
+}
+.artigo{
+    padding: 10px;
+    width: 100%;
+    font-size: 1.2em;
+}
+hr{
+    border: 1px solid #fff;
+    margin-top: 10px;
+}
+#car{
+    margin: 0 10px;
+}
+ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    padding: 4px;
+    background-color: #000;
+    color: #fff;
+    margin: 10px 40%;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: all 300ms;
+}
+nav ul li a:hover{
+    background-color:rgb(187, 0, 0);
+    color: #000;
+}
+section aside{
+    display: flex;
+}
+#contato{
+    background-color: #aaa;
+    width: 1024px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+#enviar{
+    margin-top: 5px;
+    color: #000;
+    padding: 5px;
+}
+.box{
+    color: #000;
+    margin: 5px auto;
+    align-items: flex-start;
+    flex-direction: column;
+}
